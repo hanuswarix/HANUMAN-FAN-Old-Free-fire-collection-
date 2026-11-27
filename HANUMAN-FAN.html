@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANUMAN FAN - Old Free Fire Collections</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: radial-gradient(circle at top, #450a0a 0%, #1c0505 60%, #0d0202 100%);
+            color: #fff7ed;
+            padding: 18px 14px 40px;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 560px;
+            margin: 0 auto;
+        }
+
+        /* Header Banner */
+        .header-card {
+            background: linear-gradient(135deg, #ea580c 0%, #9a3412 50%, #7c2d12 100%);
+            border: 2px solid #fbbf24;
+            border-radius: 18px;
+            padding: 20px 15px;
+            text-align: center;
+            box-shadow: 0 0 25px rgba(249, 115, 22, 0.45), inset 0 0 15px rgba(251, 191, 36, 0.3);
+            margin-bottom: 22px;
+            position: relative;
+        }
+
+        .gada-icon {
+            font-size: 34px;
+            display: block;
+            margin-bottom: 4px;
+            filter: drop-shadow(0 0 8px #fde047);
+            animation: pulseGlow 2.5s infinite alternate;
+        }
+
+        @keyframes pulseGlow {
+            from { transform: scale(1); filter: drop-shadow(0 0 6px #fbbf24); }
+            to { transform: scale(1.08); filter: drop-shadow(0 0 14px #fde047); }
+        }
+
+        .header-card h1 {
+            font-size: 21px;
+            font-weight: 800;
+            color: #fef08a;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+            letter-spacing: 0.5px;
+        }
+
+        .header-sub {
+            font-size: 12px;
+            color: #fed7aa;
+            margin-top: 5px;
+            font-weight: 500;
+        }
+
+        /* Section Cards */
+        .section {
+            background: linear-gradient(180deg, rgba(67, 20, 7, 0.88) 0%, rgba(35, 10, 4, 0.95) 100%);
+            border: 1.5px solid rgba(251, 191, 36, 0.45);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 18px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fbbf24;
+            margin-bottom: 14px;
+            padding-bottom: 8px;
+            border-bottom: 1px dashed rgba(251, 191, 36, 0.4);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .section-title::before {
+            content: "🚩";
+            font-size: 17px;
+        }
+
+        .note {
+            font-size: 12px;
+            color: #fdba74;
+            background: rgba(234, 88, 12, 0.15);
+            border-left: 3px solid #f97316;
+            padding: 7px 10px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .link-list {
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+        }
+
+        /* Hanuman Saffron & Gold Buttons */
+        a.btn-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: linear-gradient(90deg, #f97316 0%, #ea580c 50%, #c2410c 100%);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 13px 16px;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 13.5px;
+            text-align: center;
+            border: 1.5px solid #fcd34d;
+            box-shadow: 0 4px 12px rgba(234, 88, 12, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+            transition: all 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        a.btn-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(251, 191, 36, 0.55);
+            background: linear-gradient(90deg, #fb923c 0%, #f97316 50%, #ea580c 100%);
+        }
+
+        a.btn-link:active {
+            transform: scale(0.97);
+        }
+
+        /* Video Button Style */
+        a.btn-video {
+            background: linear-gradient(90deg, #b91c1c 0%, #991b1b 50%, #7f1d1d 100%);
+            border-color: #fca5a5;
+            box-shadow: 0 4px 12px rgba(185, 28, 28, 0.4);
+        }
+
+        a.btn-video:hover {
+            background: linear-gradient(90deg, #dc2626 0%, #b91c1c 100%);
+            box-shadow: 0 6px 16px rgba(248, 113, 113, 0.5);
+        }
+
+        /* Discord Button Style */
+        a.btn-discord {
+            background: linear-gradient(90deg, #d97706 0%, #b45309 100%);
+            border: 2px solid #fef08a;
+            color: #fef9c3;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 28px;
+            padding: 18px 12px;
+            background: linear-gradient(135deg, rgba(154, 52, 18, 0.4), rgba(69, 10, 10, 0.7));
+            border: 1.5px solid #f59e0b;
+            border-radius: 16px;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #fde047;
+            font-weight: 800;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 20px rgba(245, 158, 11, 0.25);
+        }
+
+        /* Sound Toggle Pill */
+        .sound-badge {
+            display: inline-block;
+            margin-top: 8px;
+            background: rgba(0, 0, 0, 0.35);
+            border: 1px solid #fbbf24;
+            color: #fde047;
+            font-size: 11px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header-card">
+            <span class="gada-icon">🔱🚩🔱</span>
+            <h1>HANUMAN FAN<br>Old Free Fire Collections</h1>
+            <div class="header-sub">Jai Bajrang Bali • All Classic Versions Hub</div>
+            <div class="sound-badge" id="soundToggle" onclick="toggleSound()">🔔 Temple Bell Sound: ON</div>
+        </div>
+
+        <!-- 2018 -->
+        <div class="section">
+            <div class="section-title">2018 Collection</div>
+            <div class="link-list">
+                <a href="https://www.mediafire.com/file/l5h0cvziqhwpip6/LASTUPDATEBLGEXACT.apk/file" class="btn-link">⚡ Download for Android (2018)</a>
+                <a href="https://www.mediafire.com/file/rf4k3kzc959vzif/FF_BLGEXACT.ipa/file" class="btn-link">🍎 Download for iPhone (2018)</a>
+                <a href="http://jekxnostalgie.online/register" class="btn-link">🔗 Link for Bind Account (Optional)</a>
+                <a href="https://youtu.be/MAxLlDM2Ovk" class="btn-link btn-video">▶️ Watch Video for Setup</a>
+            </div>
+            <div class="note">📌 Note: New 2018 Winterland update coming soon</div>
+        </div>
+
+        <!-- 2019 -->
+        <div class="section">
+            <div class="section-title">New Old Free Fire 2019 (Without Key)</div>
+            <div class="link-list">
+                <a href="https://www.mediafire.com/file/gkzigob00jx4738/Barbosa_Project_1.39_base_%2528fix-crash%2529_%25281%2529.apk/file" class="btn-link">🔥 New Best 2019 APK</a>
+                <a href="https://youtu.be/WXdx7ReemKQ" class="btn-link btn-video">▶️ Watch Video for Setup</a>
+                <a href="https://www.mediafire.com/file/xd0hkbhe3qzfcij/BLGEXACT-full.apk/file" class="btn-link">🎧 Old Free Fire 2019 with DJ Alok</a>
+                <a href="http://jekxnostalgie.online/register" class="btn-link">🆔 Register ID for DJ Alok 2019 (Optional)</a>
+                <a href="https://youtu.be/Uzj93QAfTYw" class="btn-link btn-video">▶️ Watch Video for Setup (DJ Alok)</a>
+            </div>
+        </div>
+
+        <!-- 2020 -->
+        <div class="section">
+            <div class="section-title">Old Free Fire 2020 (CR7 Update)</div>
+            <div class="link-list">
+                <a href="https://downloads.nostalgicff.in/" class="btn-link">⚡ Download 2020 APK</a>
+                <a href="https://register157.nostalgicff.in/" class="btn-link">🆔 ID for 2020</a>
+                <a href="https://youtu.be/I0vd8TQIiPQ" class="btn-link btn-video">▶️ Watch Video for Setup</a>
+            </div>
+        </div>
+
+        <!-- 2021 -->
+        <div class="section">
+            <div class="section-title">Old Free Fire 2021 (Money Heist)</div>
+            <div class="link-list">
+                <a href="https://ffdark.store/#noticias" class="btn-link">💰 Open 2021 (Money Heist)</a>
+                <a href="https://youtu.be/iDClDyE4W24" class="btn-link btn-video">▶️ Watch Video for Setup</a>
+            </div>
+        </div>
+
+        <!-- 2022 -->
+        <div class="section">
+            <div class="section-title">Old Free Fire 2022</div>
+            <div class="link-list">
+                <a href="https://www.mediafire.com/file/yivnmt9u4glcwuc/com.dts.freefireth_v1.70.0.xapk/file" class="btn-link">📥 APK Download for 64-Bit Device</a>
+                <a href="https://www.mediafire.com/file/q6z3roxbfm76grd/FreeFire2022Indian-server-32bit.xapk/file" class="btn-link">📥 APK Download for 32-Bit Mobile</a>
+                <a href="https://register.samosasmobiles.dpdns.org/" class="btn-link">🔑 Get Your Key & Register ID</a>
+                <a href="https://youtu.be/t3nEh_eEPzo" class="btn-link btn-video">▶️ Watch Video for Setup</a>
+            </div>
+        </div>
+
+        <!-- 2023 -->
+        <div class="section">
+            <div class="section-title">Old Free Fire 2023</div>
+            <div class="link-list">
+                <a href="https://www.mediafire.com/file/5w0kjh38wjjypwj/Barbosa_Project_2023_arm64_fix-blue-screen.apk/file" class="btn-link">⚡ 2023 (Main) APK</a>
+                <a href="https://www.mediafire.com/file/aemry5wxam1es7r/Barbosa_Project_2023_ARMV7_fix-blue-screen.apk/file" class="btn-link">🛠️ 2023 Backup APK (If Main Not Work)</a>
+                <a href="https://youtu.be/_ga8qpWLQTs" class="btn-link btn-video">▶️ Watch Video for Setup</a>
+            </div>
+            <div class="note">⏳ Old Free Fire 2024 coming soon...</div>
+        </div>
+
+        <!-- 2025 -->
+        <div class="section">
+            <div class="section-title">Old FF 2025 APK & Files</div>
+            <div class="link-list">
+                <a href="https://www.mediafire.com/file/oqcs0ckgxfs9ig6/Project+Kallix+2025+32+bits.apk/file" class="btn-link">⚡ Free Fire 2025 (32-Bit)</a>
+                <a href="https://www.mediafire.com/file/l0260diux9ndg16/Project_Kallix_2025_64_bits.apk/file" class="btn-link">⚡ Free Fire 2025 (64-Bit)</a>
+                <a href="https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver" class="btn-link">📁 ZArchiver App Link</a>
+                <a href="https://www.mediafire.com/file/ph6113ijbkc182o/main.2019118693.com.dts.freefireth.obb/file" class="btn-link">📦 OBB File Link</a>
+                <a href="https://www.mediafire.com/file/oc16q0pt7kj7itw/localConfig.json/file" class="btn-link">⚙️ New LocalConfig Link</a>
+                <a href="https://youtu.be/fQUklxW7asA" class="btn-link btn-video">▶️ Watch Tutorial: How to Setup</a>
+            </div>
+        </div>
+
+        <!-- Discord -->
+        <div class="section">
+            <div class="section-title">Join Discord Community</div>
+            <div class="link-list">
+                <a href="https://discord.gg/V6SA6DYzex" class="btn-link btn-discord">💬 Join Discord for Latest Updates & Direct Contact to me </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            🥰 JAI SHREE HANUMAN JI 💖<br>
+            🥰 JAI SHREE SITARAM JI 💖<br>
+            😇 BOLO JAI BAJRANG BALI ⚡❤️
+        </div>
+    </div>
+
+    <script>
+        let soundEnabled = true;
+        let audioCtx = null;
+
+        function toggleSound() {
+            soundEnabled = !soundEnabled;
+            const badge = document.getElementById('soundToggle');
+            badge.textContent = soundEnabled ? '🔔 Temple Bell Sound: ON' : '🔕 Temple Bell Sound: OFF';
+            if (soundEnabled) playTempleBell();
+        }
+
+        // Temple Bell / Divine Chime Sound using Web Audio API
+        function playTempleBell() {
+            if (!soundEnabled) return;
+            try {
+                if (!audioCtx) {
+                    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                }
+                if (audioCtx.state === 'suspended') {
+                    audioCtx.resume();
+                }
+
+                const now = audioCtx.currentTime;
+                const freqs = [1046.5, 1567.98, 2093.0]; // C6, G6, C7 metallic bell harmonics
+
+                freqs.forEach((freq, idx) => {
+                    const osc = audioCtx.createOscillator();
+                    const gain = audioCtx.createGain();
+
+                    osc.type = idx === 0 ? 'sine' : 'triangle';
+                    osc.frequency.setValueAtTime(freq, now);
+
+                    gain.gain.setValueAtTime(0.001, now);
+                    gain.gain.exponentialRampToValueAtTime(0.18 / (idx + 1), now + 0.015);
+                    gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.85);
+
+                    osc.connect(gain);
+                    gain.connect(audioCtx.destination);
+
+                    osc.start(now);
+                    osc.stop(now + 0.9);
+                });
+            } catch (e) {}
+        }
+
+        // Attach bell sound to every link button with slight delay so sound plays cleanly before redirect
+        document.querySelectorAll('a.btn-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                if (!soundEnabled) return;
+                e.preventDefault();
+                const targetUrl = this.href;
+                playTempleBell();
+                setTimeout(() => {
+                    window.location.href = targetUrl;
+                }, 260);
+            });
+        });
+    </script>
+</body>
+</html>
